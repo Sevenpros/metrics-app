@@ -6,7 +6,7 @@ import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 const Details = () => {
   const details = useSelector((state) => state.countryReducer.details);
   return (
-    <div>
+    <>
       <div className="navigation">
         <Link to="/" className="arrow">
           <FontAwesomeIcon icon={faAngleLeft} />
@@ -44,7 +44,7 @@ const Details = () => {
           {details.NewDeaths}
         </li>
       </ul>
-    </div>
+    </>
   );
 };
 export default Details;
