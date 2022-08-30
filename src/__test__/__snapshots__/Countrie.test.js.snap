@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries tests render Countries test 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="headline"
+  />
+  <div
+    className="grid-container"
+  >
+    <h1>
+      Country
+    </h1>
+    <h2>
+      Confirmed Cases
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Countries tests render Details test 1`] = `
+<ul>
+  <li
+    className="c-details"
+  >
+    Country: Germany
+  </li>
+  <li
+    className="c-details"
+  >
+    Deaths: 100
+  </li>
+  <li
+    className="c-details"
+  >
+    New Case: 40
+  </li>
+  <li
+    className="c-details"
+  >
+    Recover: 67
+  </li>
+</ul>
+`;

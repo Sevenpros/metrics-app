@@ -1,11 +1,15 @@
-import Cities from './Cities';
+import Countries from './Countries';
 
-const HomePage = () => {
-   
-  return <>
-   <h2>GERMANY WEATHER</h2>
-    <Cities/>
+const HomePage = () => (
+  <>
+    <div className="container">
+      <div className="headline">
+        <h2>CORONA VIRUS STATISTICS AROUND THE WORLD</h2>
+      </div>
+      <Countries />
+    </div>
+
   </>
-};
+);
 
 export default HomePage;

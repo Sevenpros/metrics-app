@@ -5,10 +5,10 @@ import { Provider } from 'react-redux';
 import './index.css';
 import store from './redux/store';
 import App from './App';
-import { fetchCities } from './redux/city';
+import { fetchCountries } from './redux/country';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-store.dispatch(fetchCities());
+store.dispatch(fetchCountries());
 root.render(
   <BrowserRouter>
     <Provider store={store}>

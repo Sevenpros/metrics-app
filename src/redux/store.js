@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import cityReducer from './city';
+import countryReducer from './country';
 
 const store = configureStore({
   reducer: {
-    cityReducer,
+    countryReducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
