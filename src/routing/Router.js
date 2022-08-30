@@ -3,7 +3,7 @@ import {
   Route,
 } from 'react-router-dom';
 import HomePage from '../components/HomePage';
-import Details from '../components/Details';
+import Details from '../components/Details.js';
 
 const Router = () => (
   <>
