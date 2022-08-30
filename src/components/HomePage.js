@@ -1,7 +1,11 @@
+import Cities from './Cities';
+
 const HomePage = () => {
-    return (
-        <div>
-            <h2>Home Page</h2>
-        </div>
-    )
-}
+   
+  return <>
+   <h2>GERMANY WEATHER</h2>
+    <Cities/>
+  </>
+};
+
+export default HomePage;
