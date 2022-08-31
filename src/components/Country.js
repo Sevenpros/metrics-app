@@ -16,7 +16,10 @@ const Country = (props) => {
         {Country}
         {' '}
       </h2>
-      <h3>{TotalConfirmed}</h3>
+      <h3>
+        {TotalConfirmed}
+        {' '}
+      </h3>
     </Link>
   );
 };
