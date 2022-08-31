@@ -10,7 +10,7 @@ import { fetchCountries } from './redux/country';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 store.dispatch(fetchCountries());
 root.render(
-  <BrowserRouter basename="/metrics-app">
+  <BrowserRouter>
     <Provider store={store}>
       <App />
     </Provider>
