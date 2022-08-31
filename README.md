@@ -6,6 +6,9 @@
 ## Built With
 
 - REACT & REDUX
+## Live Demo (if available)
+
+[Live Demo Link](https://metrics.sethpro.com)
 
 # Getting Started with Create React App
 To get a local copy up and running follow these simple example steps.
