@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import HomePage from '../components/HomePage';
 // eslint-disable-next-line
-import Details from '../components/Details';
+import Details from '../components/details';
 
 const Router = () => (
   <>
