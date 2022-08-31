@@ -8,8 +8,8 @@
 - REACT & REDUX
 ## Live Demo (if available)
 
-[Live Demo Link](https://metrics.sethpro.com)
-
+[Website](https://metrics.sethpro.com)
+[Video demo ](https://www.loom.com/share/bafc301b59384fbaa36fb1a006eb0c71)
 # Getting Started with Create React App
 To get a local copy up and running follow these simple example steps.
 - Visit my github repo of this project [@githubhandle](https://github.com/Sevenpros/metrics-app);

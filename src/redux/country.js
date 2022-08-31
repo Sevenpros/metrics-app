@@ -27,4 +27,5 @@ export const fetchCountries = createAsyncThunk(LOAD_COUNTRIES, async () => {
 });
 
 export const loadDetails = (id) => ({ type: LOAD_DETAILS, id });
+
 export default countryReducer;
