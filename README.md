@@ -1,62 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: METRICS APP
 
-> Description the project.
-
-
+  This the mobile web app implemented with the help of REACT & REDUX where a user can view the corona virus information from all around the workd, from the list of the countries he/she can click on selected countries and the app takes you to the details page where you can see all details of corona virus infomation of the selected county.
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
+- REACT & REDUX
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://metrics.sethpro.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
+# Getting Started with Create React App
 To get a local copy up and running follow these simple example steps.
+- Visit my github repo of this project [@githubhandle](https://github.com/Sevenpros/metrics-app);
+- clone the project into you pc.
+- locate the directory where you cloned your prooject
+- install node and npm
+- using terminal ```npm run start ```  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- enjoy 
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- In order to clone the project you need to have a git installed in your computer
+- Node and npm installed
+- To run the project you will need to have a web browser installed on your computer as well.
 
 ## Authors
 
-👤 **Author1**
+👤 **Seth Bizimana**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Github](https://github.com/Sevenpros)
+- Twitter: [@twitter](https://twitter.com/BizimanaSeth)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/seth-bizimana-2a0624189)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -65,11 +45,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
+- Original design idea by Nelson Sakwa on Behance.
 - etc
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
