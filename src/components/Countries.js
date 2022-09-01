@@ -9,7 +9,7 @@ const Countries = () => {
     setSearch(e.target.value);
   };
   return (
-    <div>
+    <div className="countries">
       <div className="input">
         <input
           type="text"
