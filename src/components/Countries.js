@@ -1,41 +1,22 @@
-import { useSelector } from 'react-redux';
-import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Country from './Country';
 
-const Countries = () => {
-  const countries = useSelector((state) => state.countryReducer.countries);
-  const [search, setSearch] = useState('');
-  const onChangeHandle = (e) => {
-    setSearch(e.target.value);
-  };
+const Countries = (props) => {
+  const { countries } = props;
   return (
-    <div className="countries">
-      <div className="input">
-        <input
-          type="text"
-          className="search"
-          placeholder="Enter country name"
-          value={search}
-          onChange={onChangeHandle}
+    <div className="grid-container">
+      {/* eslint-disable-next-line */}
+      {countries.map((country) => (
+        <Country
+          key={country.ID}
+          country={country}
         />
-      </div>
-      <div className="grid-container">
-        {/* eslint-disable-next-line */}
- { countries.filter((country) => {
-   if (search === '') {
-     return country;
-   } if (country.Country.toLowerCase().includes(search.toLowerCase())) {
-     return country;
-   }
- }).map((country) => (
-   <Country
-     key={country.ID}
-     country={country}
-   />
- ))}
-      </div>
+      ))}
     </div>
+
   );
 };
-
+Countries.propTypes = {
+  countries: PropTypes.shape({}).isRequired,
+};
 export default Countries;

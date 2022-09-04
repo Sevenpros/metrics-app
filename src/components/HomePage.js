@@ -1,15 +1,20 @@
-import Countries from './Countries';
+import { useSelector } from 'react-redux';
+import Search from './Search';
 
-const HomePage = () => (
-  <>
-    <div className="container">
-      <div className="headline">
-        <h2>CORONA VIRUS STATISTICS AROUND THE WORLD</h2>
+const HomePage = () => {
+  const countries = useSelector((state) => state.countryReducer.countries);
+
+  return (
+    <>
+      <div className="container">
+        <div className="headline">
+          <h2>CORONA VIRUS STATISTICS AROUND THE WORLD</h2>
+        </div>
+        <Search countries={countries} />
       </div>
-      <Countries />
-    </div>
 
-  </>
-);
+    </>
+  );
+};
 
 export default HomePage;
