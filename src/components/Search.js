@@ -8,6 +8,10 @@ const Search = (props) => {
   const onChangeHandle = (e) => {
     setSearch(e.target.value);
   };
+    if(!countries) {
+    return <div>COUNTRIES LOADING...</div>;
+  }
+  esle{
   /* eslint-disable-next-line */
   const filteredCountries = countries.filter((country) => {
     if (search === '') {
@@ -32,7 +36,7 @@ const Search = (props) => {
     </div>
 
   );
-};
+};}
 
 Search.propTypes = {
   countries: PropTypes.shape({}).isRequired,
